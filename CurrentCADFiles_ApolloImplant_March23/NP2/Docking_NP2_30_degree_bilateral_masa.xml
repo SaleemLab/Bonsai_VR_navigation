@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>d0</name>
+      <typeCode>ul</typeCode>
+      <value>1.000 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d495</name>
+      <typeCode>mm</typeCode>
+      <value>d601 + d2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d6</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d8</name>
+      <typeCode>mm</typeCode>
+      <value>d1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d9</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d95</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d153</name>
+      <typeCode>mm</typeCode>
+      <value>d2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d154</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d155</name>
+      <typeCode>mm</typeCode>
+      <value>d1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d158</name>
+      <typeCode>mm</typeCode>
+      <value>d1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d159</name>
+      <typeCode>mm</typeCode>
+      <value>5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d160</name>
+      <typeCode>mm</typeCode>
+      <value>d2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>EndPlaneDistance</name>
+      <typeCode>mm</typeCode>
+      <value>7 mm - ExposedProbeLength</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d169</name>
+      <typeCode>mm</typeCode>
+      <value>0.25 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d170</name>
+      <typeCode>mm</typeCode>
+      <value>0.1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d171</name>
+      <typeCode>mm</typeCode>
+      <value>d1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d172</name>
+      <typeCode>mm</typeCode>
+      <value>3.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d181</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d2</name>
+      <typeCode>mm</typeCode>
+      <value>GapBetweenModules</value>
+      <comment>The "space" between the docking and payload modules</comment>
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d1</name>
+      <typeCode>mm</typeCode>
+      <value>MinWallThickness</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d353</name>
+      <typeCode>mm</typeCode>
+      <value>d160</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d354</name>
+      <typeCode>mm</typeCode>
+      <value>d2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d384</name>
+      <typeCode>ul</typeCode>
+      <value>2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d385</name>
+      <typeCode>deg</typeCode>
+      <value>360 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d387</name>
+      <typeCode>mm</typeCode>
+      <value>1.25 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d388</name>
+      <typeCode>mm</typeCode>
+      <value>0.3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d389</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d390</name>
+      <typeCode>mm</typeCode>
+      <value>2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d391</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d392</name>
+      <typeCode>mm</typeCode>
+      <value>1.25 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d393</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d394</name>
+      <typeCode>mm</typeCode>
+      <value>0.3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d395</name>
+      <typeCode>mm</typeCode>
+      <value>2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d396</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d418</name>
+      <typeCode>mm</typeCode>
+      <value>d1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d419</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>AppertureSize</name>
+      <typeCode>mm</typeCode>
+      <value>InterProbeDist / 2 ul + 1.25 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d422</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d423</name>
+      <typeCode>mm</typeCode>
+      <value>d1 - 0.1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d431</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d432</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d435</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d436</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d437</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d438</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>AngleNubInterval</name>
+      <typeCode>mm</typeCode>
+      <value>0.6 mm * 1.9 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d445</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d446</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d455</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d456</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d457</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d463</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d464</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d470</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d471</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d476</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d477</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d486</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ExposedProbeLength</name>
+      <typeCode>mm</typeCode>
+      <value>5 mm</value>
+      <comment>This is the approximate length of the exposed shanks once the modules are combined. It will vary with each specific payload depending on the exact shank position etc.</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>2</string>
+        <string>2.1</string>
+        <string>2.2</string>
+        <string>2.3</string>
+        <string>2.4</string>
+        <string>2.5</string>
+        <string>2.6</string>
+        <string>2.7</string>
+        <string>2.8</string>
+        <string>2.9</string>
+        <string>3</string>
+        <string>3.1</string>
+        <string>3.2</string>
+        <string>3.3</string>
+        <string>3.4</string>
+        <string>3.5</string>
+        <string>3.6</string>
+        <string>3.7</string>
+        <string>3.8</string>
+        <string>3.9</string>
+        <string>4</string>
+        <string>4.1</string>
+        <string>4.2</string>
+        <string>4.3</string>
+        <string>4.4</string>
+        <string>4.5</string>
+        <string>4.6</string>
+        <string>4.7</string>
+        <string>4.8</string>
+        <string>4.9</string>
+        <string>5</string>
+        <string>5.1</string>
+        <string>5.2</string>
+        <string>5.3</string>
+        <string>5.4</string>
+        <string>5.5</string>
+        <string>5.6</string>
+        <string>5.7</string>
+        <string>5.8</string>
+        <string>5.9</string>
+        <string>6</string>
+        <string>6.1</string>
+        <string>6.2</string>
+        <string>6.3</string>
+        <string>6.4</string>
+        <string>6.5</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d487</name>
+      <typeCode>mm</typeCode>
+      <value>5.3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>MinWallThickness</name>
+      <typeCode>mm</typeCode>
+      <value>0.7 mm</value>
+      <comment>The min width of a feature. It can be increased to make it more sturdy if you don't have weight restrictions</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>0.3</string>
+        <string>0.4</string>
+        <string>0.5</string>
+        <string>0.6</string>
+        <string>0.7</string>
+        <string>0.8</string>
+        <string>0.9</string>
+        <string>1</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>NubbleHeight</name>
+      <typeCode>mm</typeCode>
+      <value>0.6 mm</value>
+      <comment>Height of the "nubbles"</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>0.3</string>
+        <string>0.4</string>
+        <string>0.5</string>
+        <string>0.6</string>
+        <string>0.7</string>
+        <string>0.8</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d491</name>
+      <typeCode>mm</typeCode>
+      <value>1.4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d492</name>
+      <typeCode>mm</typeCode>
+      <value>d1 - 0.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d496</name>
+      <typeCode>mm</typeCode>
+      <value>0.25 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d497</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d499</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d500</name>
+      <typeCode>ul</typeCode>
+      <value>0 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d501</name>
+      <typeCode>deg</typeCode>
+      <value>90 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d502</name>
+      <typeCode>ul</typeCode>
+      <value>0 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d503</name>
+      <typeCode>deg</typeCode>
+      <value>90 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d506</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth / 2 ul + 2 ul * AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d507</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>PayloadThickness</name>
+      <typeCode>mm</typeCode>
+      <value>3.300 mm</value>
+      <comment>The thickness of the middle of the payload module. NOTE: this is derived/driven by the payload module</comment>
+      <isKey>true</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>InterProbeDist</name>
+      <typeCode>mm</typeCode>
+      <value>ProbeDistanceFromPayload</value>
+      <comment>Approx distance between probes. NOTE: derived/driven by the payload module. If you change here, the parts will be out of sync</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>2</string>
+        <string>2.1</string>
+        <string>2.2</string>
+        <string>2.3</string>
+        <string>2.4</string>
+        <string>2.5</string>
+        <string>2.6</string>
+        <string>2.7</string>
+        <string>2.8</string>
+        <string>2.9</string>
+        <string>3</string>
+        <string>3.1</string>
+        <string>3.2</string>
+        <string>3.3</string>
+        <string>3.4</string>
+        <string>3.5</string>
+        <string>3.6</string>
+        <string>3.7</string>
+        <string>3.8</string>
+        <string>3.9</string>
+        <string>4</string>
+        <string>ProbeDistanceFromPayload</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d520</name>
+      <typeCode>deg</typeCode>
+      <value>30 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d529</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d530</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d531</name>
+      <typeCode>mm</typeCode>
+      <value>4.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d532</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d533</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d534</name>
+      <typeCode>mm</typeCode>
+      <value>3.7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d536</name>
+      <typeCode>deg</typeCode>
+      <value>30 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d537</name>
+      <typeCode>ul</typeCode>
+      <value>5 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d539</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d540</name>
+      <typeCode>ul</typeCode>
+      <value>4 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d542</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d545</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d546</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d547</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d548</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d549</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d550</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d551</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d552</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d553</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleHeight</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d554</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d555</name>
+      <typeCode>mm</typeCode>
+      <value>4.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d556</name>
+      <typeCode>mm</typeCode>
+      <value>3.7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d557</name>
+      <typeCode>mm</typeCode>
+      <value>2.7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d558</name>
+      <typeCode>mm</typeCode>
+      <value>2.7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d559</name>
+      <typeCode>mm</typeCode>
+      <value>5.3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d575</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d576</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval * 2 ul + 1.7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d577</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>NubbleWidth</name>
+      <typeCode>mm</typeCode>
+      <value>0.6 mm</value>
+      <comment>Width of the "nubbles"</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>0.3</string>
+        <string>0.4</string>
+        <string>0.5</string>
+        <string>0.6</string>
+        <string>0.7</string>
+        <string>0.8</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d578</name>
+      <typeCode>deg</typeCode>
+      <value>30 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d587</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d588</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d589</name>
+      <typeCode>deg</typeCode>
+      <value>-30 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d590</name>
+      <typeCode>ul</typeCode>
+      <value>3 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d592</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d593</name>
+      <typeCode>ul</typeCode>
+      <value>2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d595</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d598</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d599</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d600</name>
+      <typeCode>mm</typeCode>
+      <value>0.8 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d601</name>
+      <typeCode>mm</typeCode>
+      <value>2.000 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d602</name>
+      <typeCode>mm</typeCode>
+      <value>3.000 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d603</name>
+      <typeCode>mm</typeCode>
+      <value>d2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d604</name>
+      <typeCode>mm</typeCode>
+      <value>d1 + d2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d605</name>
+      <typeCode>mm</typeCode>
+      <value>d1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d607</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval * 2 ul - NubbleWidth / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d608</name>
+      <typeCode>ul</typeCode>
+      <value>5 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d610</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d611</name>
+      <typeCode>ul</typeCode>
+      <value>4 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d613</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d617</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d618</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d619</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d620</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d621</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d622</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d625</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul + 0.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d630</name>
+      <typeCode>mm</typeCode>
+      <value>2.1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d631</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d632</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d633</name>
+      <typeCode>mm</typeCode>
+      <value>d1 + d2 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d634</name>
+      <typeCode>ul</typeCode>
+      <value>3 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d636</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d637</name>
+      <typeCode>ul</typeCode>
+      <value>2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d639</name>
+      <typeCode>mm</typeCode>
+      <value>AngleNubInterval</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>GapBetweenModules</name>
+      <typeCode>mm</typeCode>
+      <value>0.5 mm</value>
+      <comment>Gap between payload and docking modules. Larger values means a looser fit</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>0.1</string>
+        <string>0.2</string>
+        <string>0.3</string>
+        <string>0.4</string>
+        <string>0.5</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d642</name>
+      <typeCode>mm</typeCode>
+      <value>NubbleWidth / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>SliceAngle1</name>
+      <typeCode>deg</typeCode>
+      <value>30 deg</value>
+      <comment>End-taper of the module in direction 1</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>0</string>
+        <string>2</string>
+        <string>4</string>
+        <string>6</string>
+        <string>8</string>
+        <string>10</string>
+        <string>12</string>
+        <string>14</string>
+        <string>16</string>
+        <string>18</string>
+        <string>20</string>
+        <string>22</string>
+        <string>24</string>
+        <string>26</string>
+        <string>28</string>
+        <string>30</string>
+        <string>32</string>
+        <string>34</string>
+        <string>36</string>
+        <string>38</string>
+        <string>40</string>
+        <string>42</string>
+        <string>44</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d650</name>
+      <typeCode>deg</typeCode>
+      <value>1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>PlaneAngle1</name>
+      <typeCode>deg</typeCode>
+      <value>SliceAngle1</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d671</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d672</name>
+      <typeCode>mm</typeCode>
+      <value>d671</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d673</name>
+      <typeCode>mm</typeCode>
+      <value>d671</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d674</name>
+      <typeCode>mm</typeCode>
+      <value>d673</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d676</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d677</name>
+      <typeCode>deg</typeCode>
+      <value>1 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>PlaneAngle2</name>
+      <typeCode>deg</typeCode>
+      <value>SliceAngle2</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d680</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d681</name>
+      <typeCode>mm</typeCode>
+      <value>d680</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d682</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d683</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d685</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>SliceAngle2</name>
+      <typeCode>deg</typeCode>
+      <value>0 deg</value>
+      <comment>End-taper of the module in direction 2</comment>
+      <isKey>true</isKey>
+      <multiValues>
+        <string>0</string>
+        <string>2</string>
+        <string>4</string>
+        <string>6</string>
+        <string>8</string>
+        <string>10</string>
+        <string>12</string>
+        <string>14</string>
+        <string>16</string>
+        <string>18</string>
+        <string>20</string>
+        <string>22</string>
+        <string>24</string>
+        <string>26</string>
+        <string>28</string>
+        <string>30</string>
+        <string>32</string>
+        <string>34</string>
+        <string>36</string>
+        <string>38</string>
+        <string>40</string>
+        <string>42</string>
+        <string>44</string>
+      </multiValues>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d686</name>
+      <typeCode>deg</typeCode>
+      <value>1 deg</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ProbeDistanceFromPayload</name>
+      <typeCode>mm</typeCode>
+      <value>PayloadThickness + 1.3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d687</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d688</name>
+      <typeCode>mm</typeCode>
+      <value>0.000 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d689</name>
+      <typeCode>mm</typeCode>
+      <value>0.000 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d691</name>
+      <typeCode>mm</typeCode>
+      <value>d1 / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d693</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d694</name>
+      <typeCode>mm</typeCode>
+      <value>0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+      <tolerance>Default;Nominal;Document Precision</tolerance>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
