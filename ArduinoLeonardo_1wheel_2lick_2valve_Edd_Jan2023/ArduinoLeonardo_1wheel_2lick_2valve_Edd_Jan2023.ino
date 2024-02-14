@@ -20,8 +20,8 @@
 // Unfortunately 0 and 1 don't work on arduino during serial, so we can only get one encoder input (forwards only!, sucks!)
 #define LickPinL 2 // digital pin of lick detector
 #define LickPinR 3 // digital pin of lick detector
-#define encoder0PinA 18          // sensor A of rotary encoder
-#define encoder0PinB 19          // sensor B of rotary encoder
+#define encoder0PinA 7          // sensor A of rotary encoder
+#define encoder0PinB 6          // sensor B of rotary encoder
 #define SValvePinL 11             // digital pin controlling the solenoid valve
 #define SValvePinR 12
 //#define SyncPin 10               // sync pulse pin
@@ -64,9 +64,9 @@ uint32_t StartTimeR = 0;      // variable to store temporary timestamps of previ
 
 
 // variable for sync pulse
-//volatile unsigned int PinStatus = 0;      // variable for transitions
-//uint32_t TempTime = 0;           // variable to store time when sync pulse goes up
-//volatile unsigned Delta_t = 0;            // variable to store intervals between 0->1 transitions
+volatile unsigned int PinStatus = 0;      // variable for transitions
+uint32_t TempTime = 0;           // variable to store time when sync pulse goes up
+volatile unsigned Delta_t = 0;            // variable to store intervals between 0->1 transitions
 
 // variables for eye tracking camera trigger
 boolean cameraState = false;
@@ -96,7 +96,12 @@ void setup() {
   pinMode(SValvePinL, OUTPUT);           // solenoid valve for left port
   pinMode(SValvePinR, OUTPUT);          // solenoid valve for right port
   
-
+  //pinMode(SyncPin, INPUT);              // sync pulse
+//  pinMode(EyeCameraTrPin_IN, INPUT);    // trigger in for camera
+ // pinMode(EyeCameraTrPin_OUT, OUTPUT);  // eye camera trigger
+ // pinMode(RecCameraTrPin_OUT, OUTPUT);  // trigger to start/stop camera
+ // pinMode(RecCameraTrPin_IN, INPUT);    // eye camera register frame time (trigger)
+  
   // interrupts for rotary encoder
   attachInterrupt(digitalPinToInterrupt(encoder0PinA), doEncoderA, CHANGE);
   attachInterrupt(digitalPinToInterrupt(encoder0PinB), doEncoderB, CHANGE);
@@ -110,7 +115,7 @@ void setup() {
   // interrupt for recording camera pulse counter
   //attachInterrupt(digitalPinToInterrupt(RecCameraTrPin_IN), RecCameraPulse_Receiver, CHANGE);
   
-  Serial.begin (9600);
+  Serial.begin (250000);
   Serial.setTimeout(5);
 
   delay(500);
@@ -128,11 +133,19 @@ void loop() {
     Serial.print(LickCountL);//
     Serial.print("\t");
     Serial.print(LickCountR);//
-
+    //Serial.print("\t");
+    //Serial.print(PinStatus);
+    //Serial.print("\t");
+    //Serial.print(FrameCount);
+    //Serial.print("\t");
+    //Serial.print(FrameTime);
+    //Serial.print("\t");
+    //Serial.print(receivedChars);
     Serial.print("\n");
     tmp_Pos = encoder0Pos;
     tmp_LickCountL = LickCountL;
     tmp_LickCountR = LickCountR;
+    //tmp_FrameCount = FrameCount;
   }
   else {
     Serial.print(tmp_Pos);//
@@ -140,6 +153,14 @@ void loop() {
     Serial.print(tmp_LickCountL);//
     Serial.print("\t");
     Serial.print(tmp_LickCountR);//
+    //Serial.print("\t");
+    //Serial.print(PinStatus);
+    //Serial.print("\t");
+    //Serial.print(tmp_FrameCount);
+    //Serial.print("\t");
+    //Serial.print(FrameTime);
+    //Serial.print("\t");
+    //Serial.print(receivedChars);
     Serial.print("\n");
   }
 

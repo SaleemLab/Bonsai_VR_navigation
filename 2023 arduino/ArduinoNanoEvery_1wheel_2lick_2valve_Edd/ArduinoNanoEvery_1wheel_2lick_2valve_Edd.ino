@@ -96,7 +96,12 @@ void setup() {
   pinMode(SValvePinL, OUTPUT);           // solenoid valve for left port
   pinMode(SValvePinR, OUTPUT);          // solenoid valve for right port
   
-
+  //pinMode(SyncPin, INPUT);              // sync pulse
+//  pinMode(EyeCameraTrPin_IN, INPUT);    // trigger in for camera
+ // pinMode(EyeCameraTrPin_OUT, OUTPUT);  // eye camera trigger
+ // pinMode(RecCameraTrPin_OUT, OUTPUT);  // trigger to start/stop camera
+ // pinMode(RecCameraTrPin_IN, INPUT);    // eye camera register frame time (trigger)
+  
   // interrupts for rotary encoder
   attachInterrupt(digitalPinToInterrupt(encoder0PinA), doEncoderA, CHANGE);
   attachInterrupt(digitalPinToInterrupt(encoder0PinB), doEncoderB, CHANGE);
@@ -110,10 +115,10 @@ void setup() {
   // interrupt for recording camera pulse counter
   //attachInterrupt(digitalPinToInterrupt(RecCameraTrPin_IN), RecCameraPulse_Receiver, CHANGE);
   
-  Serial.begin (9600);
+  Serial.begin (1000000);
   Serial.setTimeout(5);
 
-  delay(500);
+  delay(5);
 }
 
 /////////////////////////////////////////////////////////////////////////////
@@ -128,11 +133,19 @@ void loop() {
     Serial.print(LickCountL);//
     Serial.print("\t");
     Serial.print(LickCountR);//
-
+    //Serial.print("\t");
+    //Serial.print(PinStatus);
+    //Serial.print("\t");
+    //Serial.print(FrameCount);
+    //Serial.print("\t");
+    //Serial.print(FrameTime);
+    //Serial.print("\t");
+    //Serial.print(receivedChars);
     Serial.print("\n");
     tmp_Pos = encoder0Pos;
     tmp_LickCountL = LickCountL;
     tmp_LickCountR = LickCountR;
+    //tmp_FrameCount = FrameCount;
   }
   else {
     Serial.print(tmp_Pos);//
@@ -140,6 +153,14 @@ void loop() {
     Serial.print(tmp_LickCountL);//
     Serial.print("\t");
     Serial.print(tmp_LickCountR);//
+    //Serial.print("\t");
+    //Serial.print(PinStatus);
+    //Serial.print("\t");
+    //Serial.print(tmp_FrameCount);
+    //Serial.print("\t");
+    //Serial.print(FrameTime);
+    //Serial.print("\t");
+    //Serial.print(receivedChars);
     Serial.print("\n");
   }
 
@@ -148,7 +169,7 @@ void loop() {
   ActivatePVR();
   //TriggerCamera();
 
-  //delay(1);
+  delay(5);
 }
 /////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////
