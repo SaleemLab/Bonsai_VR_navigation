@@ -1,0 +1,41 @@
+Start Location
+- 200 is greyscreen
+- -1120 Track 1 (left-sided)
+- -120 Track 2 (right-sided)
+
+(Blocker X location
+- 5 for Track 1
+- -5 for Track 2
+- Any value for greyscreen here use 10
+
+Blocker X Rotation
+- 3.14159265
+
+Blocker Y Rotation
+- 3.14159265)
+
+Reward Zone Centre
+- -45 for Track 2
+- -1045 for Track 1
+	
+Reward Zone Size (half)	
+- e.g. if reward zone centre is -30 amd reward zone size is 30 then:
+Max is 0
+Min is -60
+
+Track ID
+- 1 is left-sided 
+- 2 is right-sided
+	
+Lap ID	
+- 1,2,3,4 ...
+
+Lick Limit
+- Lick number threshold (Terminate the lap when this number is exceeded) 
+(P.S The lap will not be terminated if lick threshold was exceeded after successfully recieving reward)
+- Will set lick limit to 0 for greyscreen
+	
+Trial Type
+- 0 for Passive learning (Reward delivered When enter the reward zone regardless of )
+- 2 for both passive and active learning 
+- 1 for Active learning (Lick in the reward zone)
