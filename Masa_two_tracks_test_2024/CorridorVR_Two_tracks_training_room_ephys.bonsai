@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.7.3"
+<WorkflowBuilder Version="2.7.1"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gl="clr-namespace:Bonsai.Shaders;assembly=Bonsai.Shaders"
                  xmlns:res="clr-namespace:Bonsai.Resources;assembly=Bonsai.System"
@@ -29,7 +29,7 @@
           <gl:Location xsi:nil="true" />
           <gl:WindowBorder>Resizable</gl:WindowBorder>
           <gl:WindowState>Fullscreen</gl:WindowState>
-          <gl:DisplayDevice>Second</gl:DisplayDevice>
+          <gl:DisplayDevice>First</gl:DisplayDevice>
           <gl:TargetRenderFrequency>60</gl:TargetRenderFrequency>
           <gl:TargetUpdateFrequency xsi:nil="true" />
           <gl:RenderState />
@@ -690,7 +690,7 @@
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
-              <FileName>test_data\Masa2tracks_WheelLog.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_WheelLog.csv</FileName>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
               <Property Name="FileName" DisplayName="EyeFileName" />
@@ -700,7 +700,7 @@
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
-              <FileName>test_data\Masa2tracks_EyeLog.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_EyeLog.csv</FileName>
             </Expression>
             <Expression xsi:type="Disable">
               <Builder xsi:type="IncludeWorkflow" Path="Extensions\FrameEventLoggerWithTime.bonsai">
@@ -728,7 +728,7 @@
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
-              <FileName>test_data\Masa2tracks_PDAsync.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_PDAsync.csv</FileName>
             </Expression>
             <Expression xsi:type="WorkflowOutput" />
           </Nodes>
@@ -986,7 +986,7 @@ ViewMatrix.Row3.Yzw as Light)</scr:Expression>
         <Property Name="SkipRows" />
       </Expression>
       <Expression xsi:type="io:CsvReader">
-        <io:FileName>START_LOCATION_t2_v2_with_active.CSV</io:FileName>
+        <io:FileName>C:\Users\saleem_lab\Documents\GitHub\Bonsai_VR_navigation\Masa_two_tracks_test_2024\START_LOCATION_t2_v2_with_active.CSV</io:FileName>
         <io:ListSeparator>,</io:ListSeparator>
         <io:SkipRows>0</io:SkipRows>
       </Expression>
@@ -33222,7 +33222,7 @@ double.Parse(it[7]) as item8
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="io:CreateSerialPort">
                 <io:Name>ArduinoSerial</io:Name>
-                <io:PortName>COM3</io:PortName>
+                <io:PortName>COM4</io:PortName>
                 <io:BaudRate>1000000</io:BaudRate>
                 <io:Encoding>utf-8</io:Encoding>
                 <io:Parity>None</io:Parity>
@@ -33393,33 +33393,35 @@ double.Parse(it[7]) as item8
               <Selector xsi:nil="true" />
               <Name>Events</Name>
             </Expression>
-            <Expression xsi:type="GroupWorkflow">
-              <Name>Temp photodiode and syncpulse</Name>
-              <Workflow>
-                <Nodes>
-                  <Expression xsi:type="WorkflowInput">
-                    <Name>Source1</Name>
-                  </Expression>
-                  <Expression xsi:type="MemberSelector">
-                    <Selector>Item4</Selector>
-                  </Expression>
-                  <Expression xsi:type="MulticastSubject">
-                    <Name>SyncPulse</Name>
-                  </Expression>
-                  <Expression xsi:type="MemberSelector">
-                    <Selector>Item5</Selector>
-                  </Expression>
-                  <Expression xsi:type="MulticastSubject">
-                    <Name>Photodiode</Name>
-                  </Expression>
-                </Nodes>
-                <Edges>
-                  <Edge From="0" To="1" Label="Source1" />
-                  <Edge From="0" To="3" Label="Source1" />
-                  <Edge From="1" To="2" Label="Source1" />
-                  <Edge From="3" To="4" Label="Source1" />
-                </Edges>
-              </Workflow>
+            <Expression xsi:type="Disable">
+              <Builder xsi:type="GroupWorkflow">
+                <Name>Temp photodiode and syncpulse</Name>
+                <Workflow>
+                  <Nodes>
+                    <Expression xsi:type="WorkflowInput">
+                      <Name>Source1</Name>
+                    </Expression>
+                    <Expression xsi:type="MemberSelector">
+                      <Selector>Item4</Selector>
+                    </Expression>
+                    <Expression xsi:type="MulticastSubject">
+                      <Name>SyncPulse</Name>
+                    </Expression>
+                    <Expression xsi:type="MemberSelector">
+                      <Selector>Item5</Selector>
+                    </Expression>
+                    <Expression xsi:type="MulticastSubject">
+                      <Name>Photodiode</Name>
+                    </Expression>
+                  </Nodes>
+                  <Edges>
+                    <Edge From="0" To="1" Label="Source1" />
+                    <Edge From="0" To="3" Label="Source1" />
+                    <Edge From="1" To="2" Label="Source1" />
+                    <Edge From="3" To="4" Label="Source1" />
+                  </Edges>
+                </Workflow>
+              </Builder>
             </Expression>
             <Expression xsi:type="GroupWorkflow">
               <Name>Manual reward control</Name>
@@ -33489,147 +33491,145 @@ double.Parse(it[7]) as item8
                 </Edges>
               </Workflow>
             </Expression>
-            <Expression xsi:type="Disable">
-              <Builder xsi:type="GroupWorkflow">
-                <Name>AnalogOutputs</Name>
-                <Workflow>
-                  <Nodes>
-                    <Expression xsi:type="Combinator">
-                      <Combinator xsi:type="io:SerialStringRead">
-                        <io:PortName>ArduinoAnalog</io:PortName>
-                        <io:NewLine>\n</io:NewLine>
-                      </Combinator>
-                    </Expression>
-                    <Expression xsi:type="Parse">
-                      <Pattern>%i,%i</Pattern>
-                    </Expression>
-                    <Expression xsi:type="Combinator">
-                      <Combinator xsi:type="rx:Retry" />
-                    </Expression>
-                    <Expression xsi:type="MemberSelector">
-                      <Selector>Item1</Selector>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="rx:BehaviorSubject">
-                        <Name>Photodiode</Name>
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="MulticastSubject">
+            <Expression xsi:type="GroupWorkflow">
+              <Name>AnalogOutputs</Name>
+              <Workflow>
+                <Nodes>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="io:SerialStringRead">
+                      <io:PortName>ArduinoAnalog</io:PortName>
+                      <io:NewLine>\n</io:NewLine>
+                    </Combinator>
+                  </Expression>
+                  <Expression xsi:type="Parse">
+                    <Pattern>%i,%i</Pattern>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="rx:Retry" />
+                  </Expression>
+                  <Expression xsi:type="MemberSelector">
+                    <Selector>Item1</Selector>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="rx:BehaviorSubject">
                       <Name>Photodiode</Name>
-                    </Expression>
-                    <Expression xsi:type="MemberSelector">
-                      <Selector>Item2</Selector>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="rx:BehaviorSubject">
-                        <Name>SyncPulse</Name>
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="MulticastSubject">
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="MulticastSubject">
+                    <Name>Photodiode</Name>
+                  </Expression>
+                  <Expression xsi:type="MemberSelector">
+                    <Selector>Item2</Selector>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="rx:BehaviorSubject">
                       <Name>SyncPulse</Name>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="Combinator">
-                        <Combinator xsi:type="rx:Zip" />
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="scr:ExpressionTransform">
-                        <scr:Expression>new(Item1 as Photodiode, Item2 as SyncPulse, Item3 as Time)</scr:Expression>
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="IncludeWorkflow" Path="BonVision:Logging.LogEvent.bonsai">
-                        <Format />
-                        <Selector>Photodiode,SyncPulse,Time</Selector>
-                        <Name>PDAsyncEvents</Name>
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="Combinator">
-                      <Combinator xsi:type="rx:Timestamp" />
-                    </Expression>
-                    <Expression xsi:type="MemberSelector">
-                      <Selector>Timestamp.TimeOfDay.TotalMilliseconds</Selector>
-                    </Expression>
-                    <Expression xsi:type="SubscribeSubject">
-                      <Name>SyncPulse</Name>
-                    </Expression>
-                    <Expression xsi:type="SubscribeSubject">
-                      <Name>Photodiode</Name>
-                    </Expression>
-                    <Expression xsi:type="Combinator">
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="MulticastSubject">
+                    <Name>SyncPulse</Name>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="Combinator">
                       <Combinator xsi:type="rx:Zip" />
-                    </Expression>
-                    <Expression xsi:type="scr:ExpressionTransform">
-                      <scr:Expression>new(Item1 as P, Item2 as S, Item3 as T)</scr:Expression>
-                    </Expression>
-                    <Expression xsi:type="IncludeWorkflow" Path="BonVision:Logging.LogEvent.bonsai">
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="scr:ExpressionTransform">
+                      <scr:Expression>new(Item1 as Photodiode, Item2 as SyncPulse, Item3 as Time)</scr:Expression>
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="IncludeWorkflow" Path="BonVision:Logging.LogEvent.bonsai">
                       <Format />
-                      <Selector xsi:nil="true" />
+                      <Selector>Photodiode,SyncPulse,Time</Selector>
                       <Name>PDAsyncEvents</Name>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="Combinator">
-                        <Combinator xsi:type="rx:Zip" />
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="scr:ExpressionTransform">
-                        <scr:Expression>new(Item1 as Photodiode, Item2 as SyncPulse, Item3 as Time)</scr:Expression>
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="Disable">
-                      <Builder xsi:type="IncludeWorkflow" Path="BonVision:Logging.LogEvent.bonsai">
-                        <Format />
-                        <Selector>Photodiode,SyncPulse,Time</Selector>
-                        <Name>PDAsyncEvents</Name>
-                      </Builder>
-                    </Expression>
-                    <Expression xsi:type="Combinator">
-                      <Combinator xsi:type="io:CreateSerialPort">
-                        <io:Name>ArduinoAnalog</io:Name>
-                        <io:PortName>COM6</io:PortName>
-                        <io:BaudRate>250000</io:BaudRate>
-                        <io:Encoding>utf-8</io:Encoding>
-                        <io:Parity>None</io:Parity>
-                        <io:ParityReplace>63</io:ParityReplace>
-                        <io:DataBits>8</io:DataBits>
-                        <io:StopBits>One</io:StopBits>
-                        <io:Handshake>None</io:Handshake>
-                        <io:DiscardNull>false</io:DiscardNull>
-                        <io:DtrEnable>true</io:DtrEnable>
-                        <io:RtsEnable>false</io:RtsEnable>
-                        <io:ReadBufferSize>4096</io:ReadBufferSize>
-                        <io:WriteBufferSize>2048</io:WriteBufferSize>
-                        <io:ReceivedBytesThreshold>1</io:ReceivedBytesThreshold>
-                      </Combinator>
-                    </Expression>
-                  </Nodes>
-                  <Edges>
-                    <Edge From="0" To="1" Label="Source1" />
-                    <Edge From="0" To="12" Label="Source1" />
-                    <Edge From="1" To="2" Label="Source1" />
-                    <Edge From="2" To="3" Label="Source1" />
-                    <Edge From="2" To="6" Label="Source1" />
-                    <Edge From="3" To="4" Label="Source1" />
-                    <Edge From="4" To="5" Label="Source1" />
-                    <Edge From="5" To="9" Label="Source1" />
-                    <Edge From="6" To="7" Label="Source1" />
-                    <Edge From="7" To="8" Label="Source1" />
-                    <Edge From="8" To="9" Label="Source2" />
-                    <Edge From="9" To="10" Label="Source1" />
-                    <Edge From="10" To="11" Label="Source1" />
-                    <Edge From="12" To="13" Label="Source1" />
-                    <Edge From="13" To="16" Label="Source3" />
-                    <Edge From="14" To="16" Label="Source2" />
-                    <Edge From="15" To="16" Label="Source1" />
-                    <Edge From="16" To="17" Label="Source1" />
-                    <Edge From="17" To="18" Label="Source1" />
-                    <Edge From="19" To="20" Label="Source1" />
-                    <Edge From="20" To="21" Label="Source1" />
-                  </Edges>
-                </Workflow>
-              </Builder>
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="rx:Timestamp" />
+                  </Expression>
+                  <Expression xsi:type="MemberSelector">
+                    <Selector>Timestamp.TimeOfDay.TotalMilliseconds</Selector>
+                  </Expression>
+                  <Expression xsi:type="SubscribeSubject">
+                    <Name>SyncPulse</Name>
+                  </Expression>
+                  <Expression xsi:type="SubscribeSubject">
+                    <Name>Photodiode</Name>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="rx:Zip" />
+                  </Expression>
+                  <Expression xsi:type="scr:ExpressionTransform">
+                    <scr:Expression>new(Item1 as P, Item2 as S, Item3 as T)</scr:Expression>
+                  </Expression>
+                  <Expression xsi:type="IncludeWorkflow" Path="BonVision:Logging.LogEvent.bonsai">
+                    <Format />
+                    <Selector xsi:nil="true" />
+                    <Name>PDAsyncEvents</Name>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="Combinator">
+                      <Combinator xsi:type="rx:Zip" />
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="scr:ExpressionTransform">
+                      <scr:Expression>new(Item1 as Photodiode, Item2 as SyncPulse, Item3 as Time)</scr:Expression>
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="Disable">
+                    <Builder xsi:type="IncludeWorkflow" Path="BonVision:Logging.LogEvent.bonsai">
+                      <Format />
+                      <Selector>Photodiode,SyncPulse,Time</Selector>
+                      <Name>PDAsyncEvents</Name>
+                    </Builder>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="io:CreateSerialPort">
+                      <io:Name>ArduinoAnalog</io:Name>
+                      <io:PortName>COM5</io:PortName>
+                      <io:BaudRate>250000</io:BaudRate>
+                      <io:Encoding>utf-8</io:Encoding>
+                      <io:Parity>None</io:Parity>
+                      <io:ParityReplace>63</io:ParityReplace>
+                      <io:DataBits>8</io:DataBits>
+                      <io:StopBits>One</io:StopBits>
+                      <io:Handshake>None</io:Handshake>
+                      <io:DiscardNull>false</io:DiscardNull>
+                      <io:DtrEnable>true</io:DtrEnable>
+                      <io:RtsEnable>false</io:RtsEnable>
+                      <io:ReadBufferSize>4096</io:ReadBufferSize>
+                      <io:WriteBufferSize>2048</io:WriteBufferSize>
+                      <io:ReceivedBytesThreshold>1</io:ReceivedBytesThreshold>
+                    </Combinator>
+                  </Expression>
+                </Nodes>
+                <Edges>
+                  <Edge From="0" To="1" Label="Source1" />
+                  <Edge From="0" To="12" Label="Source1" />
+                  <Edge From="1" To="2" Label="Source1" />
+                  <Edge From="2" To="3" Label="Source1" />
+                  <Edge From="2" To="6" Label="Source1" />
+                  <Edge From="3" To="4" Label="Source1" />
+                  <Edge From="4" To="5" Label="Source1" />
+                  <Edge From="5" To="9" Label="Source1" />
+                  <Edge From="6" To="7" Label="Source1" />
+                  <Edge From="7" To="8" Label="Source1" />
+                  <Edge From="8" To="9" Label="Source2" />
+                  <Edge From="9" To="10" Label="Source1" />
+                  <Edge From="10" To="11" Label="Source1" />
+                  <Edge From="12" To="13" Label="Source1" />
+                  <Edge From="13" To="16" Label="Source3" />
+                  <Edge From="14" To="16" Label="Source2" />
+                  <Edge From="15" To="16" Label="Source1" />
+                  <Edge From="16" To="17" Label="Source1" />
+                  <Edge From="17" To="18" Label="Source1" />
+                  <Edge From="19" To="20" Label="Source1" />
+                  <Edge From="20" To="21" Label="Source1" />
+                </Edges>
+              </Workflow>
             </Expression>
           </Nodes>
           <Edges>
@@ -33759,7 +33759,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="ffmpeg:VideoWriter">
-                <ffmpeg:FileName>test_data\Masa2tracks_video.avi</ffmpeg:FileName>
+                <ffmpeg:FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_video.avi</ffmpeg:FileName>
                 <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
                 <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
                 <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
@@ -33831,7 +33831,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="IncludeWorkflow" Path="BonVision:Logging.EventLogger.bonsai">
               <Name>Lick Performance</Name>
-              <FileName>test_data\Masa2tracks_Lick_Performance.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_Lick_Performance.csv</FileName>
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
@@ -33841,7 +33841,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="IncludeWorkflow" Path="BonVision:Logging.EventLogger.bonsai">
               <Name>Reward</Name>
-              <FileName>test_data\Masa2tracks_Reward.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_Reward.csv</FileName>
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
@@ -33851,7 +33851,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="IncludeWorkflow" Path="BonVision:Logging.EventLogger.bonsai">
               <Name>Trial info</Name>
-              <FileName>test_data\Masa2tracks_Trial_info.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_Trial_info.csv</FileName>
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
@@ -33861,7 +33861,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="IncludeWorkflow" Path="BonVision:Logging.EventLogger.bonsai">
               <Name>Manual reward log</Name>
-              <FileName>test_data\Masa\Masa2tracks_Manual_reward.csv</FileName>
+              <FileName>C:\Users\saleem_lab\Desktop\data\Masa2tracks\Masa2tracks_Manual_reward.csv</FileName>
               <Append>false</Append>
               <Overwrite>false</Overwrite>
               <Suffix>Timestamp</Suffix>
@@ -35002,7 +35002,7 @@ def process(value):
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT0.0385658S</rx:DueTime>
+                <rx:DueTime>PT0.0245995S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
@@ -35029,7 +35029,7 @@ def process(value):
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT0.0217309S</rx:DueTime>
+                <rx:DueTime>PT0.0497357S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>

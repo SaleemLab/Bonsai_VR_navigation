@@ -14,7 +14,7 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="io:CreateSerialPort">
           <io:Name>ArduinoSerial</io:Name>
-          <io:PortName>COM3</io:PortName>
+          <io:PortName>COM4</io:PortName>
           <io:BaudRate>1000000</io:BaudRate>
           <io:Encoding>utf-8</io:Encoding>
           <io:Parity>None</io:Parity>
