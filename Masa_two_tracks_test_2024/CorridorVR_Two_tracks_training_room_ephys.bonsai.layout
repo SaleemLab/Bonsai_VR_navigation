@@ -104,8 +104,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>554</Height>
+        <Width>609</Width>
+        <Height>411</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
@@ -826,7 +826,7 @@
             <Y>3</Y>
           </Location>
           <Size>
-            <Width>390</Width>
+            <Width>290</Width>
             <Height>165</Height>
           </Size>
           <WindowState>Normal</WindowState>
@@ -1404,7 +1404,7 @@
             <Y>3</Y>
           </Location>
           <Size>
-            <Width>390</Width>
+            <Width>290</Width>
             <Height>165</Height>
           </Size>
           <WindowState>Normal</WindowState>
@@ -1550,7 +1550,7 @@
                 <Y>3</Y>
               </Location>
               <Size>
-                <Width>390</Width>
+                <Width>290</Width>
                 <Height>165</Height>
               </Size>
               <WindowState>Normal</WindowState>
@@ -3766,8 +3766,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>554</Height>
+        <Width>609</Width>
+        <Height>411</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
@@ -4752,8 +4752,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>554</Height>
+        <Width>609</Width>
+        <Height>411</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
@@ -5418,8 +5418,8 @@
             <Y>3</Y>
           </Location>
           <Size>
-            <Width>673</Width>
-            <Height>554</Height>
+            <Width>609</Width>
+            <Height>411</Height>
           </Size>
           <WindowState>Normal</WindowState>
         </EditorDialogSettings>
@@ -5602,8 +5602,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>554</Height>
+        <Width>609</Width>
+        <Height>411</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
@@ -5864,8 +5864,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>554</Height>
+        <Width>609</Width>
+        <Height>411</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
@@ -7043,8 +7043,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>554</Height>
+        <Width>609</Width>
+        <Height>411</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>

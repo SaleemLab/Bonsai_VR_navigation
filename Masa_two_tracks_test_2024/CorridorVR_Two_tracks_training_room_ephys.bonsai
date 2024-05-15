@@ -33912,16 +33912,14 @@ double.Parse(it[7]) as item8
                 <cv:Mode>Both</cv:Mode>
               </Combinator>
             </Expression>
-            <Expression xsi:type="Disable">
-              <Builder xsi:type="Combinator">
-                <Combinator xsi:type="ffmpeg:VideoWriter">
-                  <ffmpeg:FileName>test_data\Masa2tracks_video.avi</ffmpeg:FileName>
-                  <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
-                  <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
-                  <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
-                  <ffmpeg:OutputArguments>-vb 15M -vcodec mpeg4 </ffmpeg:OutputArguments>
-                </Combinator>
-              </Builder>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="ffmpeg:VideoWriter">
+                <ffmpeg:FileName>test_data\Masa2tracks_video.avi</ffmpeg:FileName>
+                <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
+                <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
+                <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
+                <ffmpeg:OutputArguments>-vb 15M -vcodec mpeg4 </ffmpeg:OutputArguments>
+              </Combinator>
             </Expression>
             <Expression xsi:type="MemberSelector">
               <Selector>ElementType</Selector>
