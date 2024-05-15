@@ -65,8 +65,8 @@
     <VisualizerSettings>
       <TimeSeriesVisualizer>
         <Capacity>640</Capacity>
-        <Min>106000</Min>
-        <Max>124000</Max>
+        <Min>900000.00000000012</Min>
+        <Max>1400000</Max>
         <AutoScale>true</AutoScale>
       </TimeSeriesVisualizer>
     </VisualizerSettings>
@@ -98,8 +98,8 @@
   <DialogSettings>
     <Visible>false</Visible>
     <Location>
-      <X>130</X>
-      <Y>130</Y>
+      <X>52</X>
+      <Y>52</Y>
     </Location>
     <Size>
       <Width>336</Width>
@@ -149,12 +149,24 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>568</Height>
+        <Width>797</Width>
+        <Height>771</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
     <EditorVisualizerLayout>
+      <DialogSettings>
+        <Visible>false</Visible>
+        <Location>
+          <X>26</X>
+          <Y>26</Y>
+        </Location>
+        <Size>
+          <Width>336</Width>
+          <Height>279</Height>
+        </Size>
+        <WindowState>Normal</WindowState>
+      </DialogSettings>
       <DialogSettings>
         <Visible>false</Visible>
         <Location>
@@ -275,8 +287,8 @@
         <Y>3</Y>
       </Location>
       <Size>
-        <Width>673</Width>
-        <Height>568</Height>
+        <Width>797</Width>
+        <Height>771</Height>
       </Size>
       <WindowState>Normal</WindowState>
     </EditorDialogSettings>
@@ -308,12 +320,12 @@
       <DialogSettings>
         <Visible>false</Visible>
         <Location>
-          <X>234</X>
-          <Y>234</Y>
+          <X>0</X>
+          <Y>0</Y>
         </Location>
         <Size>
-          <Width>336</Width>
-          <Height>279</Height>
+          <Width>0</Width>
+          <Height>0</Height>
         </Size>
         <WindowState>Normal</WindowState>
       </DialogSettings>
