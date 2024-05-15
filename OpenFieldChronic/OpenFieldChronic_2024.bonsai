@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.7.1"
+<WorkflowBuilder Version="2.7.3"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gl="clr-namespace:Bonsai.Shaders;assembly=Bonsai.Shaders"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
@@ -188,7 +188,7 @@
               <Combinator xsi:type="cv:BackgroundSubtraction">
                 <cv:BackgroundFrames>100</cv:BackgroundFrames>
                 <cv:AdaptationRate>0</cv:AdaptationRate>
-                <cv:ThresholdValue>40</cv:ThresholdValue>
+                <cv:ThresholdValue>25</cv:ThresholdValue>
                 <cv:ThresholdType>Binary</cv:ThresholdType>
                 <cv:SubtractionMethod>Dark</cv:SubtractionMethod>
               </Combinator>
@@ -377,10 +377,10 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:Crop">
           <cv:RegionOfInterest>
-            <cv:X>584</cv:X>
-            <cv:Y>428</cv:Y>
-            <cv:Width>40</cv:Width>
-            <cv:Height>46</cv:Height>
+            <cv:X>598</cv:X>
+            <cv:Y>420</cv:Y>
+            <cv:Width>42</cv:Width>
+            <cv:Height>60</cv:Height>
           </cv:RegionOfInterest>
         </Combinator>
       </Expression>
@@ -398,7 +398,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="ffmpeg:VideoWriter">
-          <ffmpeg:FileName>C:\Users\saleem_lab\Desktop\data\OpenFieldChronic\OpenFieldChronic_.avi</ffmpeg:FileName>
+          <ffmpeg:FileName>Chronic_data\OpenFieldChronic_.avi</ffmpeg:FileName>
           <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
           <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
           <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
@@ -431,7 +431,7 @@
         <Combinator xsi:type="rx:Timestamp" />
       </Expression>
       <Expression xsi:type="io:CsvWriter">
-        <io:FileName>C:\Users\saleem_lab\Desktop\data\OpenFieldChronic\OpenFieldChronic_.csv</io:FileName>
+        <io:FileName>Chronic_data\OpenFieldChronic_.csv</io:FileName>
         <io:Append>false</io:Append>
         <io:Overwrite>false</io:Overwrite>
         <io:Suffix>Timestamp</io:Suffix>
