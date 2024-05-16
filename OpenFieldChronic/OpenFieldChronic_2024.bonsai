@@ -59,11 +59,11 @@
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>FrameWidth</cv:Property>
-              <cv:Value>2560</cv:Value>
+              <cv:Value>600</cv:Value>
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>FrameHeight</cv:Property>
-              <cv:Value>1440</cv:Value>
+              <cv:Value>600</cv:Value>
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Gain</cv:Property>
@@ -237,7 +237,7 @@
               <Combinator xsi:type="cv:BackgroundSubtraction">
                 <cv:BackgroundFrames>100</cv:BackgroundFrames>
                 <cv:AdaptationRate>0</cv:AdaptationRate>
-                <cv:ThresholdValue>25</cv:ThresholdValue>
+                <cv:ThresholdValue>40</cv:ThresholdValue>
                 <cv:ThresholdType>Binary</cv:ThresholdType>
                 <cv:SubtractionMethod>Dark</cv:SubtractionMethod>
               </Combinator>
@@ -429,10 +429,10 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:Crop">
           <cv:RegionOfInterest>
-            <cv:X>368</cv:X>
-            <cv:Y>1092</cv:Y>
-            <cv:Width>216</cv:Width>
-            <cv:Height>144</cv:Height>
+            <cv:X>0</cv:X>
+            <cv:Y>438</cv:Y>
+            <cv:Width>34</cv:Width>
+            <cv:Height>42</cv:Height>
           </cv:RegionOfInterest>
         </Combinator>
       </Expression>

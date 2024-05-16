@@ -65,8 +65,8 @@
     <VisualizerSettings>
       <TimeSeriesVisualizer>
         <Capacity>640</Capacity>
-        <Min>900000.00000000012</Min>
-        <Max>1400000</Max>
+        <Min>15000</Min>
+        <Max>50000</Max>
         <AutoScale>true</AutoScale>
       </TimeSeriesVisualizer>
     </VisualizerSettings>
@@ -96,16 +96,20 @@
     <WindowState>Normal</WindowState>
   </DialogSettings>
   <DialogSettings>
-    <Visible>false</Visible>
+    <Visible>true</Visible>
     <Location>
-      <X>52</X>
-      <Y>52</Y>
+      <X>62</X>
+      <Y>371</Y>
     </Location>
     <Size>
-      <Width>336</Width>
-      <Height>279</Height>
+      <Width>367</Width>
+      <Height>306</Height>
     </Size>
     <WindowState>Normal</WindowState>
+    <VisualizerTypeName>Bonsai.Vision.Design.IplImageVisualizer</VisualizerTypeName>
+    <VisualizerSettings>
+      <IplImageVisualizer />
+    </VisualizerSettings>
   </DialogSettings>
   <DialogSettings>
     <Visible>false</Visible>
@@ -206,8 +210,8 @@
       <DialogSettings>
         <Visible>true</Visible>
         <Location>
-          <X>877</X>
-          <Y>412</Y>
+          <X>894</X>
+          <Y>407</Y>
         </Location>
         <Size>
           <Width>338</Width>
@@ -502,8 +506,8 @@
   <DialogSettings>
     <Visible>true</Visible>
     <Location>
-      <X>420</X>
-      <Y>363</Y>
+      <X>467</X>
+      <Y>347</Y>
     </Location>
     <Size>
       <Width>398</Width>
@@ -518,8 +522,8 @@
   <DialogSettings>
     <Visible>true</Visible>
     <Location>
-      <X>872</X>
-      <Y>684</Y>
+      <X>870</X>
+      <Y>680</Y>
     </Location>
     <Size>
       <Width>394</Width>
@@ -530,8 +534,8 @@
     <VisualizerSettings>
       <ScalarVisualizer>
         <Capacity>640</Capacity>
-        <Min>0</Min>
-        <Max>1500000</Max>
+        <Min>2000000</Min>
+        <Max>9000000</Max>
         <AutoScale>false</AutoScale>
       </ScalarVisualizer>
     </VisualizerSettings>
@@ -671,8 +675,8 @@
   <DialogSettings>
     <Visible>true</Visible>
     <Location>
-      <X>761</X>
-      <Y>345</Y>
+      <X>774</X>
+      <Y>71</Y>
     </Location>
     <Size>
       <Width>456</Width>
