@@ -9,7 +9,7 @@
                  xmlns:scr="clr-namespace:Bonsai.Scripting.Expressions;assembly=Bonsai.Scripting.Expressions"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
                  xmlns:dsp="clr-namespace:Bonsai.Dsp;assembly=Bonsai.Dsp"
-                 xmlns:ffmpeg="clr-namespace:Bonsai.FFmpeg;assembly=Bonsai.FFmpeg"
+                 xmlns:p1="clr-namespace:Bonsai.FFmpeg;assembly=Bonsai.FFmpeg"
                  xmlns:num="clr-namespace:Bonsai.Numerics;assembly=Bonsai.Numerics"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
@@ -1000,12 +1000,12 @@
             </Expression>
             <Expression xsi:type="Disable">
               <Builder xsi:type="Combinator">
-                <Combinator xsi:type="ffmpeg:VideoWriter">
-                  <ffmpeg:FileName>eddTest_SDTraining_video.avi</ffmpeg:FileName>
-                  <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
-                  <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
-                  <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
-                  <ffmpeg:OutputArguments>-vb 15M -vcodec mpeg4</ffmpeg:OutputArguments>
+                <Combinator xsi:type="p1:VideoWriter">
+                  <p1:FileName>eddTest_SDTraining_video.avi</p1:FileName>
+                  <p1:Suffix>Timestamp</p1:Suffix>
+                  <p1:Overwrite>false</p1:Overwrite>
+                  <p1:FrameRate>30</p1:FrameRate>
+                  <p1:OutputArguments>-vb 15M -vcodec mpeg4</p1:OutputArguments>
                 </Combinator>
               </Builder>
             </Expression>

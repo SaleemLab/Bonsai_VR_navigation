@@ -11,7 +11,7 @@
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
                  xmlns:scr="clr-namespace:Bonsai.Scripting.Expressions;assembly=Bonsai.Scripting.Expressions"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
-                 xmlns:ffmpeg="clr-namespace:Bonsai.FFmpeg;assembly=Bonsai.FFmpeg"
+                 xmlns:p2="clr-namespace:Bonsai.FFmpeg;assembly=Bonsai.FFmpeg"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
@@ -1313,8 +1313,14 @@
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="rx:Zip" />
                   </Expression>
+                  <Expression xsi:type="SubscribeSubject">
+                    <Name>ArduinoTime</Name>
+                  </Expression>
+                  <Expression xsi:type="Combinator">
+                    <Combinator xsi:type="rx:WithLatestFrom" />
+                  </Expression>
                   <Expression xsi:type="scr:ExpressionTransform">
-                    <scr:Expression>new(Item1.Item1 as Photodiode, Item1.Item2 as AsyncPulse, Item2 as BonsaiTime)</scr:Expression>
+                    <scr:Expression>new(Item1.Item1 as Photodiode, Item1.Item2 as AsyncPulse, Item2 as BonsaiTime, Item3 as ArduinoTime)</scr:Expression>
                   </Expression>
                   <Expression xsi:type="rx:BehaviorSubject">
                     <Name>PDLog</Name>
@@ -1326,9 +1332,11 @@
                   <Edge From="0" To="3" Label="Source1" />
                   <Edge From="1" To="2" Label="Source1" />
                   <Edge From="2" To="3" Label="Source2" />
-                  <Edge From="3" To="4" Label="Source1" />
-                  <Edge From="4" To="5" Label="Source1" />
+                  <Edge From="3" To="5" Label="Source1" />
+                  <Edge From="4" To="5" Label="Source2" />
                   <Edge From="5" To="6" Label="Source1" />
+                  <Edge From="6" To="7" Label="Source1" />
+                  <Edge From="7" To="8" Label="Source1" />
                 </Edges>
               </Workflow>
             </Expression>
@@ -1497,12 +1505,12 @@
             </Expression>
             <Expression xsi:type="Disable">
               <Builder xsi:type="Combinator">
-                <Combinator xsi:type="ffmpeg:VideoWriter">
-                  <ffmpeg:FileName>eddTest_SDTraining_video.avi</ffmpeg:FileName>
-                  <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
-                  <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
-                  <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
-                  <ffmpeg:OutputArguments>-vb 15M -vcodec mpeg4</ffmpeg:OutputArguments>
+                <Combinator xsi:type="p2:VideoWriter">
+                  <p2:FileName>eddTest_SDTraining_video.avi</p2:FileName>
+                  <p2:Suffix>Timestamp</p2:Suffix>
+                  <p2:Overwrite>false</p2:Overwrite>
+                  <p2:FrameRate>30</p2:FrameRate>
+                  <p2:OutputArguments>-vb 15M -vcodec mpeg4</p2:OutputArguments>
                 </Combinator>
               </Builder>
             </Expression>
