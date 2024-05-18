@@ -43,15 +43,15 @@
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Brightness</cv:Property>
-              <cv:Value>10</cv:Value>
+              <cv:Value>0</cv:Value>
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Contrast</cv:Property>
-              <cv:Value>50</cv:Value>
+              <cv:Value>60</cv:Value>
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Exposure</cv:Property>
-              <cv:Value>-13</cv:Value>
+              <cv:Value>-10</cv:Value>
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Fps</cv:Property>
@@ -67,7 +67,7 @@
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Gain</cv:Property>
-              <cv:Value>70</cv:Value>
+              <cv:Value>0</cv:Value>
             </cv:CapturePropertyAssignment>
             <cv:CapturePropertyAssignment>
               <cv:Property>Gamma</cv:Property>
@@ -237,7 +237,7 @@
               <Combinator xsi:type="cv:BackgroundSubtraction">
                 <cv:BackgroundFrames>100</cv:BackgroundFrames>
                 <cv:AdaptationRate>0</cv:AdaptationRate>
-                <cv:ThresholdValue>40</cv:ThresholdValue>
+                <cv:ThresholdValue>80</cv:ThresholdValue>
                 <cv:ThresholdType>Binary</cv:ThresholdType>
                 <cv:SubtractionMethod>Dark</cv:SubtractionMethod>
               </Combinator>
@@ -415,7 +415,7 @@
         <Combinator xsi:type="cv:BackgroundSubtraction">
           <cv:BackgroundFrames>1</cv:BackgroundFrames>
           <cv:AdaptationRate>1</cv:AdaptationRate>
-          <cv:ThresholdValue>150</cv:ThresholdValue>
+          <cv:ThresholdValue>30</cv:ThresholdValue>
           <cv:ThresholdType>Binary</cv:ThresholdType>
           <cv:SubtractionMethod>Absolute</cv:SubtractionMethod>
         </Combinator>
