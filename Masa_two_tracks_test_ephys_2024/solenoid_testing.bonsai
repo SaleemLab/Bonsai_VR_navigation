@@ -40,8 +40,10 @@
           <io:NewLine>\n</io:NewLine>
         </Combinator>
       </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="gl:SampleOnRenderFrame" />
+      <Expression xsi:type="Disable">
+        <Builder xsi:type="Combinator">
+          <Combinator xsi:type="gl:SampleOnRenderFrame" />
+        </Builder>
       </Expression>
       <Expression xsi:type="rx:Condition">
         <Workflow>
@@ -127,114 +129,110 @@ def process(value):
           <io:NewLine>\r</io:NewLine>
         </Combinator>
       </Expression>
+      <Expression xsi:type="Disable">
+        <Builder xsi:type="Combinator">
+          <Combinator xsi:type="gl:CreateWindow">
+            <gl:Width>800</gl:Width>
+            <gl:Height>600</gl:Height>
+            <gl:VSync>On</gl:VSync>
+            <gl:SwapSync>false</gl:SwapSync>
+            <gl:ClearColor>Black</gl:ClearColor>
+            <gl:ClearMask>DepthBufferBit ColorBufferBit</gl:ClearMask>
+            <gl:CursorVisible>true</gl:CursorVisible>
+            <gl:Location xsi:nil="true" />
+            <gl:WindowBorder>Fixed</gl:WindowBorder>
+            <gl:WindowState>Normal</gl:WindowState>
+            <gl:DisplayDevice>Primary</gl:DisplayDevice>
+            <gl:TargetRenderFrequency>60</gl:TargetRenderFrequency>
+            <gl:TargetUpdateFrequency xsi:nil="true" />
+            <gl:RenderState />
+            <gl:GraphicsMode>
+              <gl:ColorFormat>
+                <gl:Red>8</gl:Red>
+                <gl:Green>8</gl:Green>
+                <gl:Blue>8</gl:Blue>
+                <gl:Alpha>8</gl:Alpha>
+              </gl:ColorFormat>
+              <gl:Depth>16</gl:Depth>
+              <gl:Stencil>0</gl:Stencil>
+              <gl:Samples>0</gl:Samples>
+              <gl:AccumulatorFormat>
+                <gl:Red>0</gl:Red>
+                <gl:Green>0</gl:Green>
+                <gl:Blue>0</gl:Blue>
+                <gl:Alpha>0</gl:Alpha>
+              </gl:AccumulatorFormat>
+              <gl:Buffers>2</gl:Buffers>
+              <gl:Stereo>false</gl:Stereo>
+            </gl:GraphicsMode>
+          </Combinator>
+        </Builder>
+      </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="gl:CreateWindow">
-          <gl:Width>800</gl:Width>
-          <gl:Height>600</gl:Height>
-          <gl:VSync>On</gl:VSync>
-          <gl:SwapSync>false</gl:SwapSync>
-          <gl:ClearColor>Black</gl:ClearColor>
-          <gl:ClearMask>DepthBufferBit ColorBufferBit</gl:ClearMask>
-          <gl:CursorVisible>true</gl:CursorVisible>
-          <gl:Location xsi:nil="true" />
-          <gl:WindowBorder>Fixed</gl:WindowBorder>
-          <gl:WindowState>Normal</gl:WindowState>
-          <gl:DisplayDevice>Primary</gl:DisplayDevice>
-          <gl:TargetRenderFrequency>60</gl:TargetRenderFrequency>
-          <gl:TargetUpdateFrequency xsi:nil="true" />
-          <gl:RenderState />
-          <gl:GraphicsMode>
-            <gl:ColorFormat>
-              <gl:Red>8</gl:Red>
-              <gl:Green>8</gl:Green>
-              <gl:Blue>8</gl:Blue>
-              <gl:Alpha>8</gl:Alpha>
-            </gl:ColorFormat>
-            <gl:Depth>16</gl:Depth>
-            <gl:Stencil>0</gl:Stencil>
-            <gl:Samples>0</gl:Samples>
-            <gl:AccumulatorFormat>
-              <gl:Red>0</gl:Red>
-              <gl:Green>0</gl:Green>
-              <gl:Blue>0</gl:Blue>
-              <gl:Alpha>0</gl:Alpha>
-            </gl:AccumulatorFormat>
-            <gl:Buffers>2</gl:Buffers>
-            <gl:Stereo>false</gl:Stereo>
-          </gl:GraphicsMode>
+        <Combinator xsi:type="cv:CameraCapture">
+          <cv:Index>0</cv:Index>
+          <cv:CaptureProperties>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Fps</cv:Property>
+              <cv:Value>30</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Saturation</cv:Property>
+              <cv:Value>0</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Exposure</cv:Property>
+              <cv:Value>-5</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Gain</cv:Property>
+              <cv:Value>0</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Contrast</cv:Property>
+              <cv:Value>121</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Brightness</cv:Property>
+              <cv:Value>143</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Sharpness</cv:Property>
+              <cv:Value>50</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Gamma</cv:Property>
+              <cv:Value>0</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>Backlight</cv:Property>
+              <cv:Value>50</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>FrameWidth</cv:Property>
+              <cv:Value>2560</cv:Value>
+            </cv:CapturePropertyAssignment>
+            <cv:CapturePropertyAssignment>
+              <cv:Property>FrameHeight</cv:Property>
+              <cv:Value>1440</cv:Value>
+            </cv:CapturePropertyAssignment>
+          </cv:CaptureProperties>
         </Combinator>
       </Expression>
-      <Expression xsi:type="Disable">
-        <Builder xsi:type="Combinator">
-          <Combinator xsi:type="cv:CameraCapture">
-            <cv:Index>0</cv:Index>
-            <cv:CaptureProperties>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Fps</cv:Property>
-                <cv:Value>30</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Saturation</cv:Property>
-                <cv:Value>0</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Exposure</cv:Property>
-                <cv:Value>-7</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Gain</cv:Property>
-                <cv:Value>0</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Contrast</cv:Property>
-                <cv:Value>121</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Brightness</cv:Property>
-                <cv:Value>143</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Sharpness</cv:Property>
-                <cv:Value>50</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Gamma</cv:Property>
-                <cv:Value>0</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>Backlight</cv:Property>
-                <cv:Value>50</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>FrameWidth</cv:Property>
-                <cv:Value>2560</cv:Value>
-              </cv:CapturePropertyAssignment>
-              <cv:CapturePropertyAssignment>
-                <cv:Property>FrameHeight</cv:Property>
-                <cv:Value>1440</cv:Value>
-              </cv:CapturePropertyAssignment>
-            </cv:CaptureProperties>
-          </Combinator>
-        </Builder>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:Flip">
+          <cv:Mode>Vertical</cv:Mode>
+        </Combinator>
       </Expression>
-      <Expression xsi:type="Disable">
-        <Builder xsi:type="Combinator">
-          <Combinator xsi:type="cv:Flip">
-            <cv:Mode>Vertical</cv:Mode>
-          </Combinator>
-        </Builder>
-      </Expression>
-      <Expression xsi:type="Disable">
-        <Builder xsi:type="Combinator">
-          <Combinator xsi:type="cv:Crop">
-            <cv:RegionOfInterest>
-              <cv:X>1676</cv:X>
-              <cv:Y>176</cv:Y>
-              <cv:Width>76</cv:Width>
-              <cv:Height>62</cv:Height>
-            </cv:RegionOfInterest>
-          </Combinator>
-        </Builder>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:Crop">
+          <cv:RegionOfInterest>
+            <cv:X>1676</cv:X>
+            <cv:Y>176</cv:Y>
+            <cv:Width>76</cv:Width>
+            <cv:Height>62</cv:Height>
+          </cv:RegionOfInterest>
+        </Combinator>
       </Expression>
       <Expression xsi:type="Disable">
         <Builder xsi:type="MemberSelector">

@@ -29,7 +29,7 @@
           <gl:Location xsi:nil="true" />
           <gl:WindowBorder>Resizable</gl:WindowBorder>
           <gl:WindowState>Fullscreen</gl:WindowState>
-          <gl:DisplayDevice>Second</gl:DisplayDevice>
+          <gl:DisplayDevice>First</gl:DisplayDevice>
           <gl:TargetRenderFrequency>60</gl:TargetRenderFrequency>
           <gl:TargetUpdateFrequency xsi:nil="true" />
           <gl:RenderState />
@@ -1273,7 +1273,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Add">
                     <Operand xsi:type="DoubleProperty">
-                      <Value>-1140</Value>
+                      <Value>200</Value>
                     </Operand>
                   </Expression>
                   <Expression xsi:type="scr:ExpressionTransform">
@@ -1303,7 +1303,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="LessThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-1000</Value>
+                            <Value>340</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="WorkflowOutput" />
@@ -1409,7 +1409,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>10</Value>
+                                  <Value>0</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -1453,7 +1453,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>10</Value>
+                                  <Value>0</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -1733,7 +1733,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Add">
                     <Operand xsi:type="DoubleProperty">
-                      <Value>-1140</Value>
+                      <Value>200</Value>
                     </Operand>
                   </Expression>
                   <Expression xsi:type="SubscribeSubject">
@@ -1829,7 +1829,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT4.0057955S</rx:DueTime>
+                <rx:DueTime>PT4.6870667S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
@@ -26742,7 +26742,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>5.99</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-35.4268036</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -26814,7 +26814,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>-1.99</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-35.4268036</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -26887,7 +26887,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>4</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-35.4268036</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -27065,7 +27065,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-75.4268</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27137,7 +27137,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-75.4268</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27209,7 +27209,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-75.4268</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27390,7 +27390,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-55.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27462,7 +27462,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-55.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27534,7 +27534,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-55.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27715,7 +27715,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-35.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27787,7 +27787,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-35.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27859,7 +27859,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-35.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28040,7 +28040,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-15.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28112,7 +28112,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-15.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28184,7 +28184,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-15.4268036</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28368,7 +28368,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>4.57319641</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28440,7 +28440,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>4.57319641</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28512,7 +28512,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>4.57319641</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28763,7 +28763,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>5.99</TranslationY>
-                                      <TranslationZ>70.1317749</TranslationZ>
+                                      <TranslationZ>70.00922</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -28835,7 +28835,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>-1.99</TranslationY>
-                                      <TranslationZ>70.1317749</TranslationZ>
+                                      <TranslationZ>70.00922</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -28981,7 +28981,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-4</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.1317749</TranslationZ>
+                                      <TranslationZ>70.00922</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29084,7 +29084,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>30.1317749</TranslationZ>
+                                      <TranslationZ>30.0092163</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29230,7 +29230,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>30.1317749</TranslationZ>
+                                      <TranslationZ>30.0092163</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29302,7 +29302,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>30.1317749</TranslationZ>
+                                      <TranslationZ>30.0092163</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29409,7 +29409,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>50.1317749</TranslationZ>
+                                      <TranslationZ>50.0092163</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29555,7 +29555,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>50.1317749</TranslationZ>
+                                      <TranslationZ>50.0092163</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29627,7 +29627,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>50.1317749</TranslationZ>
+                                      <TranslationZ>50.0092163</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29734,7 +29734,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>70.1317749</TranslationZ>
+                                      <TranslationZ>70.00922</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29880,7 +29880,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>70.1317749</TranslationZ>
+                                      <TranslationZ>70.00922</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29952,7 +29952,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.1317749</TranslationZ>
+                                      <TranslationZ>70.00922</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30059,7 +30059,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>90.1317749</TranslationZ>
+                                      <TranslationZ>90.00922</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30205,7 +30205,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>90.1317749</TranslationZ>
+                                      <TranslationZ>90.00922</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30277,7 +30277,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>90.1317749</TranslationZ>
+                                      <TranslationZ>90.00922</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30384,7 +30384,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>110.131775</TranslationZ>
+                                      <TranslationZ>110.009216</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30456,7 +30456,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-2</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>110.131775</TranslationZ>
+                                      <TranslationZ>110.009216</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>4</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30605,7 +30605,7 @@ double.Parse(it[7]) as item8
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>110.131775</TranslationZ>
+                                      <TranslationZ>110.009216</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30724,7 +30724,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="FloatProperty">
-                            <Value>40</Value>
+                            <Value>50</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="rx:Condition">
@@ -30795,7 +30795,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="FloatProperty">
-                            <Value>70</Value>
+                            <Value>30</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="rx:Condition">
@@ -30820,7 +30820,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="FloatProperty">
-                            <Value>140</Value>
+                            <Value>90</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -30851,7 +30851,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="FloatProperty">
-                            <Value>70</Value>
+                            <Value>30</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="scr:ExpressionTransform">
@@ -30881,7 +30881,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="FloatProperty">
-                            <Value>40</Value>
+                            <Value>50</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="scr:ExpressionTransform">
@@ -30953,7 +30953,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="StringProperty">
-                      <Value>l70</Value>
+                      <Value>l30</Value>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="Disable">
@@ -31064,7 +31064,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="StringProperty">
-                      <Value>r40</Value>
+                      <Value>r50</Value>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="Disable">
@@ -31214,7 +31214,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="IntProperty">
-                      <Value>1</Value>
+                      <Value>2</Value>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="Disable">
@@ -31237,7 +31237,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Equal">
                           <Operand xsi:type="IntProperty">
-                            <Value>70</Value>
+                            <Value>30</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="WorkflowOutput" />
@@ -31262,7 +31262,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Equal">
                           <Operand xsi:type="IntProperty">
-                            <Value>140</Value>
+                            <Value>90</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="WorkflowOutput" />
@@ -31290,7 +31290,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Equal">
                           <Operand xsi:type="IntProperty">
-                            <Value>40</Value>
+                            <Value>50</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="WorkflowOutput" />
@@ -31568,7 +31568,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>1</Value>
+                            <Value>2</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -31611,7 +31611,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Combinator">
                                 <Combinator xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>2</Value>
                                 </Combinator>
                               </Expression>
                               <Expression xsi:type="rx:Condition">
@@ -31698,7 +31698,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>2</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31741,7 +31741,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>2</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31800,7 +31800,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>2</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31845,7 +31845,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>2</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31953,7 +31953,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>0</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31996,7 +31996,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>1</Value>
+                                  <Value>0</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -32089,7 +32089,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>-1040</Value>
+                            <Value>-10000</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Add">
@@ -32109,7 +32109,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>-1040</Value>
+                            <Value>-10000</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Subtract">
@@ -32124,12 +32124,12 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="GreaterThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-1045</Value>
+                            <Value>-10005</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="LessThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-1035</Value>
+                            <Value>-9995</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -32221,7 +32221,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>-1040</Value>
+                            <Value>-10000</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="PropertyMapping">
@@ -32231,7 +32231,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="GreaterThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-1040</Value>
+                            <Value>-10000</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -33955,10 +33955,10 @@ double.Parse(it[7]) as item8
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="cv:Crop">
                 <cv:RegionOfInterest>
-                  <cv:X>1896</cv:X>
-                  <cv:Y>90</cv:Y>
-                  <cv:Width>56</cv:Width>
-                  <cv:Height>42</cv:Height>
+                  <cv:X>1952</cv:X>
+                  <cv:Y>60</cv:Y>
+                  <cv:Width>64</cv:Width>
+                  <cv:Height>54</cv:Height>
                 </cv:RegionOfInterest>
               </Combinator>
             </Expression>
@@ -35184,7 +35184,7 @@ def process(value):
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT0.0237131S</rx:DueTime>
+                <rx:DueTime>PT0.0213667S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
@@ -35211,7 +35211,7 @@ def process(value):
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT0.0401314S</rx:DueTime>
+                <rx:DueTime>PT0.0375973S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
