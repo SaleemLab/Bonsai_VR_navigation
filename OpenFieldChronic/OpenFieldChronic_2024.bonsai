@@ -450,7 +450,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="ffmpeg:VideoWriter">
-          <ffmpeg:FileName>Chronic_data\OpenFieldChronic_.avi</ffmpeg:FileName>
+          <ffmpeg:FileName>Chronic_data\SleepChronic_.avi</ffmpeg:FileName>
           <ffmpeg:Suffix>Timestamp</ffmpeg:Suffix>
           <ffmpeg:Overwrite>false</ffmpeg:Overwrite>
           <ffmpeg:FrameRate>30</ffmpeg:FrameRate>
@@ -483,7 +483,7 @@
         <Combinator xsi:type="rx:Timestamp" />
       </Expression>
       <Expression xsi:type="io:CsvWriter">
-        <io:FileName>Chronic_data\OpenFieldChronic_.csv</io:FileName>
+        <io:FileName>Chronic_data\SleepChronic_.csv</io:FileName>
         <io:Append>false</io:Append>
         <io:Overwrite>false</io:Overwrite>
         <io:Suffix>Timestamp</io:Suffix>
