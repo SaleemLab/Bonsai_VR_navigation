@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.7.3"
+<WorkflowBuilder Version="2.7.1"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gl="clr-namespace:Bonsai.Shaders;assembly=Bonsai.Shaders"
                  xmlns:res="clr-namespace:Bonsai.Resources;assembly=Bonsai.System"
@@ -11,9 +11,9 @@
                  xmlns:sys="clr-namespace:System;assembly=mscorlib"
                  xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
-                 xmlns:ipy="clr-namespace:Bonsai.Scripting.IronPython;assembly=Bonsai.Scripting.IronPython"
                  xmlns:dsp="clr-namespace:Bonsai.Dsp;assembly=Bonsai.Dsp"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
+                 xmlns:ipy="clr-namespace:Bonsai.Scripting.IronPython;assembly=Bonsai.Scripting.IronPython"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
@@ -29,7 +29,7 @@
           <gl:Location xsi:nil="true" />
           <gl:WindowBorder>Resizable</gl:WindowBorder>
           <gl:WindowState>Fullscreen</gl:WindowState>
-          <gl:DisplayDevice>Second</gl:DisplayDevice>
+          <gl:DisplayDevice>First</gl:DisplayDevice>
           <gl:TargetRenderFrequency>60</gl:TargetRenderFrequency>
           <gl:TargetUpdateFrequency xsi:nil="true" />
           <gl:RenderState />
@@ -5007,7 +5007,7 @@ Item4.Item2 as transXR)</scr:Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="io:CreateSerialPort">
                 <io:Name>ArduinoSerial</io:Name>
-                <io:PortName>COM3</io:PortName>
+                <io:PortName>COM4</io:PortName>
                 <io:BaudRate>1000000</io:BaudRate>
                 <io:Encoding>utf-8</io:Encoding>
                 <io:Parity>None</io:Parity>
@@ -5035,34 +5035,11 @@ Item4.Item2 as transXR)</scr:Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:SampleOnRenderFrame" />
             </Expression>
-            <Expression xsi:type="rx:Condition">
-              <Workflow>
-                <Nodes>
-                  <Expression xsi:type="WorkflowInput">
-                    <Name>Source1</Name>
-                  </Expression>
-                  <Expression xsi:type="ipy:PythonTransform">
-                    <ipy:Script>@returns(bool)
-def process(value):
-  mylist = value.split("\t")
-
-  if len(mylist) == 4:
-    return True
-  else:
-    return False
-
-</ipy:Script>
-                  </Expression>
-                  <Expression xsi:type="WorkflowOutput" />
-                </Nodes>
-                <Edges>
-                  <Edge From="0" To="1" Label="Source1" />
-                  <Edge From="1" To="2" Label="Source1" />
-                </Edges>
-              </Workflow>
-            </Expression>
             <Expression xsi:type="Parse">
-              <Pattern>%i\t%i\t%i\t%i</Pattern>
+              <Pattern>%i,%i,%i,%i,%i,%i</Pattern>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Retry" />
             </Expression>
             <Expression xsi:type="MemberSelector">
               <Selector>Item1</Selector>
@@ -5278,7 +5255,7 @@ it</scr:Expression>
                   </cv:CapturePropertyAssignment>
                   <cv:CapturePropertyAssignment>
                     <cv:Property>Exposure</cv:Property>
-                    <cv:Value>-6</cv:Value>
+                    <cv:Value>-5</cv:Value>
                   </cv:CapturePropertyAssignment>
                   <cv:CapturePropertyAssignment>
                     <cv:Property>Fps</cv:Property>
@@ -5309,6 +5286,11 @@ it</scr:Expression>
                     <cv:Value>100</cv:Value>
                   </cv:CapturePropertyAssignment>
                 </cv:CaptureProperties>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="cv:Flip">
+                <cv:Mode>Vertical</cv:Mode>
               </Combinator>
             </Expression>
             <Expression xsi:type="Disable">
@@ -5503,36 +5485,37 @@ it</scr:Expression>
             </Expression>
           </Nodes>
           <Edges>
-            <Edge From="0" To="19" Label="Source2" />
+            <Edge From="0" To="20" Label="Source2" />
             <Edge From="1" To="2" Label="Source1" />
-            <Edge From="1" To="9" Label="Source1" />
-            <Edge From="1" To="17" Label="Source1" />
-            <Edge From="1" To="20" Label="Source1" />
             <Edge From="2" To="3" Label="Source1" />
+            <Edge From="2" To="10" Label="Source1" />
+            <Edge From="2" To="18" Label="Source1" />
+            <Edge From="2" To="21" Label="Source1" />
             <Edge From="3" To="4" Label="Source1" />
             <Edge From="4" To="5" Label="Source1" />
             <Edge From="5" To="6" Label="Source1" />
             <Edge From="6" To="7" Label="Source1" />
             <Edge From="7" To="8" Label="Source1" />
-            <Edge From="9" To="10" Label="Source1" />
+            <Edge From="8" To="9" Label="Source1" />
             <Edge From="10" To="11" Label="Source1" />
             <Edge From="11" To="12" Label="Source1" />
             <Edge From="12" To="13" Label="Source1" />
             <Edge From="13" To="14" Label="Source1" />
             <Edge From="14" To="15" Label="Source1" />
             <Edge From="15" To="16" Label="Source1" />
-            <Edge From="16" To="24" Label="Source1" />
-            <Edge From="17" To="18" Label="Source1" />
+            <Edge From="16" To="17" Label="Source1" />
+            <Edge From="17" To="25" Label="Source1" />
             <Edge From="18" To="19" Label="Source1" />
-            <Edge From="19" To="24" Label="Source2" />
-            <Edge From="20" To="21" Label="Source1" />
+            <Edge From="19" To="20" Label="Source1" />
+            <Edge From="20" To="25" Label="Source2" />
             <Edge From="21" To="22" Label="Source1" />
             <Edge From="22" To="23" Label="Source1" />
-            <Edge From="23" To="24" Label="Source3" />
-            <Edge From="24" To="25" Label="Source1" />
+            <Edge From="23" To="24" Label="Source1" />
+            <Edge From="24" To="25" Label="Source3" />
             <Edge From="25" To="26" Label="Source1" />
             <Edge From="26" To="27" Label="Source1" />
             <Edge From="27" To="28" Label="Source1" />
+            <Edge From="28" To="29" Label="Source1" />
           </Edges>
         </Workflow>
       </Expression>
