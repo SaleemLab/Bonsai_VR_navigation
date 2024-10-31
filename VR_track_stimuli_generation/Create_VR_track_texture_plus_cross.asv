@@ -125,7 +125,7 @@ textures = [];
 texsize = 512;
 wn_contrast = 0.5;
 sf = [6 12 24]; % no.of bars visible
-% sf = [1]; % no.of bars visible
+sf = [1]; % no.of bars visible
 texture_name = [{'VertGrat'},{'45Grat'},{'135Grat'},{'HorGrat'},{'plaid'}];
 
 for s = 1:length(sf)
@@ -147,20 +147,17 @@ for s = 1:length(sf)
     textures(2).sf(s).matrix = grating_45_crop;
     textures(3).sf(s).matrix = grating_135_crop;
 %     textures(6).sf(s).matrix = (grating_45_crop + grating_135_crop)/2;
-
+    cd P:\Bonvision\Masa_two_tracks_tunnel_V1_model\Textures
     for i = 1:length(textures)
-        Im_temp = textures(i).sf(s).matrix;
-        Im_temp(Im_temp == 2) = 1;
-        Im_new = ((Im_temp-0.5)*wn_contrast) + 0.5;
-        imwrite(Im_new,sprintf('%s_%i_50contrast.jpg',texture_name{i},sf(s)));
-        figure;
-        imshow(Im_new)
+        im_temp = textures(i).sf(s).matrix;
+        imwrite(textures(i).sf(s).matrix,sprintf('%s_%i_50contrast.jpg',texture_name{i},sf(s)));
     end
 end
 
 
 %% Create shape texture for first segment
 
+cd P:\Bonvision\Masa_two_tracks_tunnel\Textures
 % cd P:\Bonvision\Masa_two_tracks_tunnel_V1_model\Textures
 
 % color_patterns{1} = ...
@@ -444,13 +441,19 @@ for pattern =  1:1
         original_image = reshape(original_image(:,:,1),size(original_image,1),size(original_image,2));
         normalised_image = original_image/max(max(original_image));
         normalised_image_black = abs(255-normalised_image);
-        Im_temp = double(normalised_image);
-        wn_contrast =0.5;
-        Im_new = ((Im_temp-0.5)*wn_contrast) + 0.5;
-        imwrite(Im_new,sprintf('dot pattern white %i_50contrast.png',pattern));
-        imwrite(1-Im_new,sprintf('dot pattern black %i_50contrast.png',pattern));
-        
-       
+        imwrite(normalised_image_black,sprintf('dot pattern black %i.png',pattern));
+
+        imagesc(normalised_image_black)
+        axis square
+        axis off
+        colormap(bone)
+        exportgraphics(gca,sprintf('dot pattern black %i.png',pattern),'ContentType','vector',...
+            'BackgroundColor','black')
+        %         saveas(gca,sprintf('dot pattern black %i.png',pattern))
+        colormap(flip(bone))
+        exportgraphics(gca,sprintf('dot pattern white %i.png',pattern),'ContentType','vector',...
+            'BackgroundColor','none')
+        %         saveas(gca,sprintf('dot pattern white %i.png',pattern))
     end
 end
 % end
