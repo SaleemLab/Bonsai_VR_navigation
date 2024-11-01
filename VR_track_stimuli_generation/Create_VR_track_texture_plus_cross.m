@@ -70,7 +70,7 @@ texsize = 512;
 wn_contrast = 0.5;
 % sf = [6 12 24]; % no.of bars visible
 sf = [1]; % no.of bars visible
-texture_name = [{'black plus 25%'},{'white plus'},{'black bar'},{'white bar'},{'white cross'},{'black cross'}];
+texture_name = [{'black plus'},{'white plus'},{'black bar'},{'white bar'},{'white cross'},{'black cross'}];
 
 
 texsize = 512;
@@ -111,7 +111,8 @@ textures(6).matrix = combined + flip(combined);
 % cd P:\Bonvision\Masa_two_tracks_tunnel_V1_model\Textures
 for i = 1:length(textures)
     Im_temp = textures(i).matrix;
-    Im_temp(Im_temp == 2) = 1;
+    Im_temp(Im_temp >1) = 1;
+    Im_temp(Im_temp < 0) = 0;
     Im_new = ((Im_temp-0.5)*wn_contrast) + 0.5;
     imwrite(Im_new,sprintf('%s__50contrast.jpg',texture_name{i}));
         figure

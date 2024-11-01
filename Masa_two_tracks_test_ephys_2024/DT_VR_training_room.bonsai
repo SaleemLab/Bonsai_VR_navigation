@@ -202,19 +202,6 @@
               <gl:FlipMode>Vertical</gl:FlipMode>
             </gl:TextureConfiguration>
             <gl:TextureConfiguration xsi:type="gl:ImageTexture">
-              <gl:Name>dot pattern 4</gl:Name>
-              <gl:Width xsi:nil="true" />
-              <gl:Height xsi:nil="true" />
-              <gl:InternalFormat>Rgba</gl:InternalFormat>
-              <gl:WrapS>Repeat</gl:WrapS>
-              <gl:WrapT>Repeat</gl:WrapT>
-              <gl:MinFilter>Linear</gl:MinFilter>
-              <gl:MagFilter>Linear</gl:MagFilter>
-              <gl:FileName>Textures\dot pattern 4.png</gl:FileName>
-              <gl:ColorType>Unchanged</gl:ColorType>
-              <gl:FlipMode>Vertical</gl:FlipMode>
-            </gl:TextureConfiguration>
-            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
               <gl:Name>square pattern 1</gl:Name>
               <gl:Width xsi:nil="true" />
               <gl:Height xsi:nil="true" />
@@ -224,6 +211,19 @@
               <gl:MinFilter>Linear</gl:MinFilter>
               <gl:MagFilter>Linear</gl:MagFilter>
               <gl:FileName>Textures\square pattern 1.png</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>dot pattern 4</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\dot pattern 4.png</gl:FileName>
               <gl:ColorType>Unchanged</gl:ColorType>
               <gl:FlipMode>Vertical</gl:FlipMode>
             </gl:TextureConfiguration>
@@ -601,6 +601,136 @@
               <gl:MinFilter>Linear</gl:MinFilter>
               <gl:MagFilter>Linear</gl:MagFilter>
               <gl:FileName>Textures\dot pattern white 1.png</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>plaid_6_50contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\plaid_6_50contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>dot pattern black 1_50contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\dot pattern black 1_50contrast.png</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>dot pattern white 1_50contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\dot pattern white 1_50contrast.png</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>black plus__50contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\black plus__50contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>VertGrat_6_50contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\VertGrat_6_50contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>black cross__50contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\black cross__50contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>smoothed_fwn1_25contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\smoothed_fwn1_25contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>smoothed_fwn2_25contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\smoothed_fwn2_25contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>smoothed_fwn3_25contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\smoothed_fwn3_25contrast.jpg</gl:FileName>
+              <gl:ColorType>Unchanged</gl:ColorType>
+              <gl:FlipMode>Vertical</gl:FlipMode>
+            </gl:TextureConfiguration>
+            <gl:TextureConfiguration xsi:type="gl:ImageTexture">
+              <gl:Name>smoothed_fwn4_25contrast</gl:Name>
+              <gl:Width xsi:nil="true" />
+              <gl:Height xsi:nil="true" />
+              <gl:InternalFormat>Rgba</gl:InternalFormat>
+              <gl:WrapS>Repeat</gl:WrapS>
+              <gl:WrapT>Repeat</gl:WrapT>
+              <gl:MinFilter>Linear</gl:MinFilter>
+              <gl:MagFilter>Linear</gl:MagFilter>
+              <gl:FileName>Textures\smoothed_fwn4_25contrast.jpg</gl:FileName>
               <gl:ColorType>Unchanged</gl:ColorType>
               <gl:FlipMode>Vertical</gl:FlipMode>
             </gl:TextureConfiguration>
@@ -26766,14 +26896,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn2</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn2_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.99</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -26838,14 +26968,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn4</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn4_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.99</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -26911,14 +27041,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn1</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn1_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>4</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -26983,14 +27113,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn3</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn3_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-4</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -27087,14 +27217,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-969</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27159,14 +27289,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-969</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27231,14 +27361,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-969</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27303,14 +27433,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>30.2544</TranslationZ>
+                                      <TranslationZ>-969</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27410,14 +27540,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-949</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27482,14 +27612,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-949</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27554,14 +27684,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-949</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27626,14 +27756,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>50.2544</TranslationZ>
+                                      <TranslationZ>-949</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27733,14 +27863,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27805,14 +27935,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27877,14 +28007,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -27949,14 +28079,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>70.2544</TranslationZ>
+                                      <TranslationZ>-929</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28056,14 +28186,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-909</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28128,14 +28258,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-909</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28200,14 +28330,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-909</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28272,14 +28402,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black plus</gl:TextureName>
+                                        <gl:TextureName>black plus__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>90.2544</TranslationZ>
+                                      <TranslationZ>-909</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28382,14 +28512,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>-889</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28454,14 +28584,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>-889</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28526,14 +28656,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>-889</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28598,14 +28728,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>110.2544</TranslationZ>
+                                      <TranslationZ>-889</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28708,14 +28838,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>10.2544</TranslationZ>
+                                      <TranslationZ>-989</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28780,14 +28910,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>10.2544</TranslationZ>
+                                      <TranslationZ>-989</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28852,14 +28982,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>10.2544</TranslationZ>
+                                      <TranslationZ>-989</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -28924,14 +29054,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>dot pattern white 1</gl:TextureName>
+                                        <gl:TextureName>dot pattern white 1_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>10.2544</TranslationZ>
+                                      <TranslationZ>-989</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29070,14 +29200,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn2</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn2_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.99</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29142,14 +29272,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn4</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn4_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.99</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29214,14 +29344,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn1</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn1_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>4</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29286,14 +29416,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>smoothed_fwn3</gl:TextureName>
+                                        <gl:TextureName>smoothed_fwn3_25contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-4</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>140</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29389,14 +29519,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>-110</TranslationZ>
+                                      <TranslationZ>31</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29461,14 +29591,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-110</TranslationZ>
+                                      <TranslationZ>31</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29533,14 +29663,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>-110</TranslationZ>
+                                      <TranslationZ>31</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29605,14 +29735,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-110</TranslationZ>
+                                      <TranslationZ>31</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29712,14 +29842,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>-90</TranslationZ>
+                                      <TranslationZ>51</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29784,14 +29914,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-90</TranslationZ>
+                                      <TranslationZ>51</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -29856,14 +29986,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>-90</TranslationZ>
+                                      <TranslationZ>51</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -29928,14 +30058,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-90</TranslationZ>
+                                      <TranslationZ>51</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30035,14 +30165,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30107,14 +30237,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30179,14 +30309,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30251,14 +30381,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>plaid</gl:TextureName>
+                                        <gl:TextureName>plaid_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-70</TranslationZ>
+                                      <TranslationZ>71</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30358,14 +30488,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>-50</TranslationZ>
+                                      <TranslationZ>91</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30430,14 +30560,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-50</TranslationZ>
+                                      <TranslationZ>91</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30502,14 +30632,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>-50</TranslationZ>
+                                      <TranslationZ>91</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30574,14 +30704,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>vertGrat</gl:TextureName>
+                                        <gl:TextureName>VertGrat_6_50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-50</TranslationZ>
+                                      <TranslationZ>91</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30681,14 +30811,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black cross</gl:TextureName>
+                                        <gl:TextureName>black cross__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>5.98</TranslationY>
-                                      <TranslationZ>-30</TranslationZ>
+                                      <TranslationZ>111</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
@@ -30753,14 +30883,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black cross</gl:TextureName>
+                                        <gl:TextureName>black cross__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>0</TranslationX>
                                       <TranslationY>-1.98</TranslationY>
-                                      <TranslationZ>-30</TranslationZ>
+                                      <TranslationZ>111</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30828,14 +30958,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black cross</gl:TextureName>
+                                        <gl:TextureName>black cross__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-30</TranslationZ>
+                                      <TranslationZ>111</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>8</ScaleZ>
@@ -30900,14 +31030,14 @@ double.Parse(it[7]) as item8
                                       <Combinator xsi:type="gl:BindTexture">
                                         <gl:TextureSlot>Texture0</gl:TextureSlot>
                                         <gl:ShaderName>TexturedModel</gl:ShaderName>
-                                        <gl:TextureName>black cross</gl:TextureName>
+                                        <gl:TextureName>black cross__50contrast</gl:TextureName>
                                         <gl:TextureTarget>Texture2D</gl:TextureTarget>
                                       </Combinator>
                                     </Expression>
                                     <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
                                       <TranslationX>-3.98</TranslationX>
                                       <TranslationY>2</TranslationY>
-                                      <TranslationZ>-30</TranslationZ>
+                                      <TranslationZ>111</TranslationZ>
                                       <ScaleX>8</ScaleX>
                                       <ScaleY>8</ScaleY>
                                       <ScaleZ>0</ScaleZ>
