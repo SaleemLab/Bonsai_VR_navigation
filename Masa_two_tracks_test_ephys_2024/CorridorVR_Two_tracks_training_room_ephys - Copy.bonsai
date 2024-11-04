@@ -1273,7 +1273,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Add">
                     <Operand xsi:type="DoubleProperty">
-                      <Value>-140</Value>
+                      <Value>-1140</Value>
                     </Operand>
                   </Expression>
                   <Expression xsi:type="scr:ExpressionTransform">
@@ -1303,7 +1303,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="LessThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>0</Value>
+                            <Value>-1000</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="WorkflowOutput" />
@@ -1733,7 +1733,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Add">
                     <Operand xsi:type="DoubleProperty">
-                      <Value>-140</Value>
+                      <Value>-1140</Value>
                     </Operand>
                   </Expression>
                   <Expression xsi:type="SubscribeSubject">
@@ -1829,7 +1829,7 @@ double.Parse(it[7]) as item8
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT4.1262355S</rx:DueTime>
+                <rx:DueTime>PT4.7382048S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
@@ -30851,7 +30851,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="FloatProperty">
-                            <Value>90</Value>
+                            <Value>30</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="scr:ExpressionTransform">
@@ -30953,7 +30953,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="StringProperty">
-                      <Value>l90</Value>
+                      <Value>l30</Value>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="Disable">
@@ -31214,7 +31214,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="IntProperty">
-                      <Value>2</Value>
+                      <Value>1</Value>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="Disable">
@@ -31568,7 +31568,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>2</Value>
+                            <Value>1</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -31611,7 +31611,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Combinator">
                                 <Combinator xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Combinator>
                               </Expression>
                               <Expression xsi:type="rx:Condition">
@@ -31698,7 +31698,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31741,7 +31741,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31800,7 +31800,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31845,7 +31845,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31953,7 +31953,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -31996,7 +31996,7 @@ double.Parse(it[7]) as item8
                               </Expression>
                               <Expression xsi:type="Equal">
                                 <Operand xsi:type="IntProperty">
-                                  <Value>2</Value>
+                                  <Value>1</Value>
                                 </Operand>
                               </Expression>
                               <Expression xsi:type="WorkflowOutput" />
@@ -32089,7 +32089,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>-40</Value>
+                            <Value>-1040</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Add">
@@ -32109,7 +32109,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>-40</Value>
+                            <Value>-1040</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="Subtract">
@@ -32124,12 +32124,12 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="GreaterThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-45</Value>
+                            <Value>-1045</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="LessThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-35</Value>
+                            <Value>-1035</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -32221,7 +32221,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="Combinator">
                           <Combinator xsi:type="IntProperty">
-                            <Value>-40</Value>
+                            <Value>-1040</Value>
                           </Combinator>
                         </Expression>
                         <Expression xsi:type="PropertyMapping">
@@ -32231,7 +32231,7 @@ double.Parse(it[7]) as item8
                         </Expression>
                         <Expression xsi:type="GreaterThan">
                           <Operand xsi:type="FloatProperty">
-                            <Value>-40</Value>
+                            <Value>-1040</Value>
                           </Operand>
                         </Expression>
                         <Expression xsi:type="Combinator">
@@ -33611,7 +33611,7 @@ double.Parse(it[7]) as item8
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="StringProperty">
-                      <Value>r30</Value>
+                      <Value>r45</Value>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="Combinator">
@@ -35184,7 +35184,7 @@ def process(value):
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT0.0269S</rx:DueTime>
+                <rx:DueTime>PT0.0442661S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
@@ -35211,7 +35211,7 @@ def process(value):
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Timer">
-                <rx:DueTime>PT0.0244419S</rx:DueTime>
+                <rx:DueTime>PT0.0232734S</rx:DueTime>
                 <rx:Period>PT0S</rx:Period>
               </Combinator>
             </Expression>
@@ -35246,9 +35246,9 @@ def process(value):
               <ScaleZ>0.24</ScaleZ>
               <MeshName>cube3d</MeshName>
               <Ambient>
-                <X>0</X>
-                <Y>0</Y>
-                <Z>0</Z>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
               </Ambient>
               <Diffuse>
                 <X>0</X>
